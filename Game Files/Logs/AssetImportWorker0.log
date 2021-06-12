@@ -131,3 +131,4 @@ Received Import Request.
 Start importing Assets/Sprites/InsertYourArtHere.cs using Guid(678d11b1218aa774580d68a83f07486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526cc27a8e0c30a26ac834f1f66d646d') in 0.002671 seconds
   Import took 0.006021 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
