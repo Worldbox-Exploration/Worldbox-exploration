@@ -5,12 +5,12 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
 
-        
+    Animator animator;        
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,5 +25,6 @@ public class Weapon : MonoBehaviour
     public void Attack()
     {
         Debug.Log("I attacked!");
+        animator.SetTrigger("Attack");
     }
 }
