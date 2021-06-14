@@ -17417,3 +17417,59 @@ System memory in use after: 69.7 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1898.
 Total: 6.574900 ms (FindLiveObjects: 0.606900 ms CreateObjectMapping: 0.400200 ms MarkObjects: 5.459900 ms  DeleteObjects: 0.104500 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 1.970900 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.070700 ms MarkObjects: 1.561700 ms  DeleteObjects: 0.085900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.834849 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9831e44e2a700a6e1119228b2d38e767') in 0.009861 seconds
+  Import took 0.012805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9831e44e2a700a6e1119228b2d38e767') in 0.005404 seconds
+  Import took 0.008216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.295820 seconds.
+  path: Assets/Scripts/Weapons
+  artifactKey: Guid(993c52965c7e66a4fa155366cdce5124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons using Guid(993c52965c7e66a4fa155366cdce5124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8cc5b1382ea468ec2633740acdd2e2') in 0.001712 seconds
+  Import took 0.004419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.231370 seconds.
+  path: Assets/Scripts/Weapons/Weapon.cs
+  artifactKey: Guid(662c1497c7ef2e140abb61aeb5f3d31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapons/Weapon.cs using Guid(662c1497c7ef2e140abb61aeb5f3d31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1e2bf772133b0f023e1f854478e10a') in 0.001810 seconds
+  Import took 0.004521 seconds .
+
