@@ -6,16 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed;
 
-    private Rigidbody2D rb;
-
-    void Start(){
-        rb = GetComponent<Rigidbody2D>();
-    }
-
     void Update(){
-        float xInput = Input.GetAxisRaw("Horizontal");
-        float yInput = Input.GetAxisRaw("Vertical");
+        Vector3 direction = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 
-        rb.velocity = new Vector2(xInput, yInput) * moveSpeed;
+        transform.position = Vector2.MoveTowards(transform.position, transform.position + direction, Time.deltaTime * moveSpeed);
     }
 }
