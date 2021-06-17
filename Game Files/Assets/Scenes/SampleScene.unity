@@ -2128,7 +2128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  minimumDistanceToMove: 0
+  minimumDistanceToMove: 0.2
   maximumRange: {x: 5, y: 5}
   minimumRange: {x: -5, y: -5}
   damage: 5
