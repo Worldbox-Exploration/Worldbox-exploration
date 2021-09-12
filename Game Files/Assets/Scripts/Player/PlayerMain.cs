@@ -9,7 +9,9 @@ public class PlayerMain : MonoBehaviour
     [Space]
     public KeyCode mapKey;
     public GameObject map;
+    public PlayerInventory inventory;
 
+    
     bool mapOpen;
 
     // Start is called before the first frame update
